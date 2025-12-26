@@ -14,19 +14,26 @@ and restricting direct access to the data.
 
 ---
 
-### Why Encapsulation Matters
+### Why Encapsulation is Required
 Without encapsulation:
-- Anyone can modify internal data
-- Object state becomes inconsistent
-- Bugs are hard to track
+- Anyone can change internal state
+- Objects can enter invalid states
 
-With encapsulation:
-- Data is protected
-- Code is easier to maintain
-- Changes are safer and localized
+Encapsulation ensures:
+- Data safety
+- Controlled state changes
+- Protection of business rules
+
+---
+
+### Real-World Applications
+- Banking systems (balance protection)
+- Authentication systems (password hiding)
+- Libraries and frameworks (safe APIs)
+- Large codebases (safe collaboration)
 
 ---
 
 ### Key Idea
-Make data members private
-and control access using public methods.
+Encapsulation is not about making variables private.
+It is about protecting invariants and enforcing rules.
