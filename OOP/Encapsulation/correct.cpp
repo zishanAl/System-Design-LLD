@@ -41,3 +41,11 @@ int main() {
     cout << "Balance: " << account.getBalance() << endl;
     return 0;
 }
+/*
+Why this is correct
+
+1. Internal data is private
+2. Access is controlled through methods
+3. Validation logic is centralized
+4. Object state remains valid
+*/
