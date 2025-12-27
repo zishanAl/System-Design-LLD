@@ -38,10 +38,15 @@ an object of the base class, inheritance is incorrect.
 ### When NOT to Use Inheritance
 - Only for code reuse
 - When behavior differs significantly
-- When composition is a better fit
+- When composition is a better fit (Has-a relationship)
 
 ---
 
 ### Key Takeaway
 Inheritance is about behavioral substitution,
 not just sharing code.
+
+---
+
+### Summary
+Inheritance defines an “is-a” relationship between classes, allowing child classes to reuse and extend the behavior of parent classes. It works like a family tree, where common characteristics are inherited while specialized behavior is added in derived types. By organizing related types into a hierarchy, inheritance reduces code duplication and enables substitution, making systems easier to structure and reason about.

@@ -30,3 +30,8 @@ Decided at runtime.
 ### Key Takeaway
 Polymorphism is not enforced.
 It is achieved through correct design.
+
+---
+
+### Summary
+Polymorphism allows the same function call to produce different behavior depending on the object type, with the decision made at runtime. It works like a behavior switch, where the system automatically selects the correct behavior without the caller needing to know the specific object type. By enabling this flexibility, polymorphism eliminates the need to write separate, hard-coded logic for different but related object types, resulting in cleaner and more extensible code.
